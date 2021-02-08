@@ -25,11 +25,11 @@ def use_prefixes() -> List[str]:
 
 def prime_integer_summation() -> int:
     nombre = 2
-    i = 2
     somme = 0
     compte = 0
     while compte < 100:
-        while i < nombre and nombre%i != 0:
+        i=2
+        while i < nombre and nombre%i!=0:
             i+=1
         if i == nombre:
             compte+=1
