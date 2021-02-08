@@ -28,7 +28,7 @@ def prime_integer_summation() -> int:
     i = 2
     somme = 0
     compte = 0
-    while compte <= 100:
+    while compte < 100:
         while i < nombre and nombre%i != 0:
             i+=1
         if i == nombre:
